@@ -11,7 +11,7 @@ public class RecursiveMethod {
 
         printList("Before: ", head);
         head = reverseList(head);
-        printList("After reverse: ", head);
+        printList("After recursive reverse: ", head);
 
     }
 
