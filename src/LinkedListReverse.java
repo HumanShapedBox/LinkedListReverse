@@ -1,9 +1,11 @@
 
 public class LinkedListReverse {
 
+    static IterativeMethod iMethod = new IterativeMethod();
+    static RecursiveMethod rMethod = new RecursiveMethod();
+
     public static void main(String[] args) {
-        IterativeMethod iMethod = new IterativeMethod();
-        RecursiveMethod rMethod = new RecursiveMethod();
+
         iMethod.startIterativeReverse();
         rMethod.startRecursiveReverse();
     }
