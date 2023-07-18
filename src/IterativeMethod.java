@@ -10,7 +10,7 @@ public class IterativeMethod {
 
         printList("Before: ", head);
         head = reverseList(head);
-        printList("After reverse: ", head);
+        printList("After iterative reverse: ", head);
     }
 
     private Node push(Node head, int key)
